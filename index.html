@@ -16,16 +16,16 @@
     <section class="banner">
         <div class="container">
             <h1 class="heading_text">The World's Only Weather Website</h1>
-            <form>
-                <input class="input" type="text" placeholder="Search for a city!" autofocus>
-                <button type="submit">Submit</button>
+            <form id="weather_form">
+                <label for="weather_input">Search for a City</label>
+                <input id="weather_input" class="input" type="text" placeholder="Search for a city!" autofocus>
+                <button type="submit">Search</button>
                 <span class="message"></span>
             </form>
         </div>
     </section>
     <section class="ajax_section">
-        <div class="container">
-            <ul class="cities"></ul>
+        <div class="card_container">
         </div>
     </section>
 
