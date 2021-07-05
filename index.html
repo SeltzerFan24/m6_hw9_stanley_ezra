@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Main CSS -->
     <link rel="stylesheet" href="styles.css" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    
     <title>Assignment 9</title>
 </head>
 
@@ -15,20 +18,19 @@
 
     <section class="banner">
         <div class="container">
-            <h1 class="heading_text">The World's Only Weather Website</h1>
+            <h1 class="heading_text">Weather! Find it here!</h1>
             <form id="weather_form">
-                <label for="weather_input">Search for a City</label>
+                <label for="weather_input" class="search_city">Search for a city</label>
                 <input id="weather_input" class="input" type="text" placeholder="Search for a city!" autofocus>
                 <button type="submit">Search</button>
                 <span class="message"></span>
             </form>
         </div>
     </section>
-    <section class="ajax_section">
+    <section class="card_section">
         <div class="card_container">
         </div>
     </section>
-
 <script src="main.js"></script>
 </body>
 

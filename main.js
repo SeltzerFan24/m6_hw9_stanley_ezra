@@ -30,13 +30,13 @@ weatherForm.addEventListener("submit", e => {
         .then((data) => {
             let cityCard = `
             <div class="card">
-                <div class="container">
+                <div class="info_container">
                     <h5>City: ${city}</h5>
                     <h6>Country Code: ${countryCode}</h6>
                     <img src="http://openweathermap.org/img/wn/${icon}" alt="Avatar" style="width:100%">
                     <p>Description: ${description}</p>
                     <p>Temperature: ${temp}</p>
-                    <p>Feels Like: ${feelsLike}</p>
+                    <p class="bottom_p">Feels Like: ${feelsLike}</p>
                 </div>
             </div>
             `;

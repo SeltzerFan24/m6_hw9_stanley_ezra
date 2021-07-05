@@ -1,22 +1,64 @@
 body {
-    background-color: navy;
+    background-color: #02044F;
     color: white;
+    font-family: 'Oxygen', sans-serif;
 }
 
-.card_container{
-    background-color: black;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 40%;
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.banner {
+  text-align: center;
 }
 
 .container {
   padding: 2px 16px;
+}
+
+.search_city {
+  font-size: 1.5em
+}
+
+.input {
+  padding: 10px;
+  margin: 25px 0;
+}
+
+.card_container{
+    background-color: #4ea8de;
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 2em;
+}
+
+
+
+.card {
+  max-width: 90%;
+  margin: 50px auto;
+}
+
+.info_container {
+  color: black;
+}
+
+h5 {
+  padding-top: 50px;
+  font-size: 2em;
+}
+
+h6 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.info_container img {
+  width: 100px !important;
+}
+
+.info_container p {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.bottom_p {
+  padding-bottom: 50px;
 }
