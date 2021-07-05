@@ -62,3 +62,25 @@ h6 {
 .bottom_p {
   padding-bottom: 50px;
 }
+
+@media screen and (min-width: 500px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  button {
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 700;
+  }
+
+  .input {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .card_container {
+    max-width: 500px;
+  }
+}
