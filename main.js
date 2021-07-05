@@ -24,6 +24,7 @@ weatherForm.addEventListener("submit", e => {
             city = data.name;
             countryCode = data.sys.country;
             icon = `${data.weather[0].icon}.png`;
+            description = data.weather[0].description;
             return data
         })
         .then((data) => {
@@ -33,6 +34,7 @@ weatherForm.addEventListener("submit", e => {
                     <h5>City: ${city}</h5>
                     <h6>Country Code: ${countryCode}</h6>
                     <img src="http://openweathermap.org/img/wn/${icon}" alt="Avatar" style="width:100%">
+                    <p>Description: ${description}</p>
                     <p>Temperature: ${temp}</p>
                     <p>Feels Like: ${feelsLike}</p>
                 </div>
